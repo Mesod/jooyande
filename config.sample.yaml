@@ -1,3 +1,6 @@
 telegram_api:
   id: 12345
   hash: qwerty
+channels: 
+  - testChannel1
+  - testChannel2

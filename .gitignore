@@ -108,3 +108,10 @@ config.yaml
 
 # sessions
 *.session
+*.session-journal
+
+# downloads
+*.jpg
+
+# database
+db.json

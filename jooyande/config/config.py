@@ -27,3 +27,8 @@ class TelegramConfig(Config):
     @property
     def api_hash(self):
         return self.get_property('telegram_api')['hash']
+
+class ChannelsConfig(Config):
+    @property
+    def channels_list(self):
+        return self.get_property('channels')
